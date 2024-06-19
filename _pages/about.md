@@ -8,6 +8,4 @@ redirect_from:
   - /about.html
 ---
 
-[Curriculum Vitae (CV)](https://hongzeyu0319.github.io/files/CV_HongzeYu_June_2024.pdf)
-
-I'm a postdoctoral researcher working under the guidance of Prof. Jeffrey Fessler, Prof. Douglas Noll, and Prof. Zhongming Liu at the University of Michigan. I completed my PhD studies at the University of Southern California working under the supervision of Prof. Justin Haldar.  My research interests include signal and image processing, magnetic resonance imaging (MRI), computational imaging, inverse problems, and the connections between machine learning and constrained image reconstruction.
+I'm a PhD Candidate in ECE department at the University of Michigan, advised by Prof. Yun Jiang and Prof. Jeffrey A. Fessler. My research interests are designing novel image acquisition and reconstruction using deep learning for Quantitative MRI.
