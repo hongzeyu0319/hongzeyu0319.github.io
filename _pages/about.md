@@ -8,4 +8,5 @@ redirect_from:
   - /about.html
 ---
 
-I'm a PhD Candidate in ECE department at the University of Michigan, advised by Prof. Yun Jiang and Prof. Jeffrey A. Fessler. My research interests are designing novel image acquisition and reconstruction using deep learning for Quantitative MRI.
+I'm a PhD Candidate in ECE department at the University of Michigan, advised by Prof. Yun Jiang and Prof. Jeffrey A. Fessler. My research interests are mainly designing novel image acquisition and reconstruction methods using deep learning for Quantitative MRI.
+
