@@ -7,4 +7,11 @@ author_profile: true
 
 {% include base_path %}
 
-WIP :)
+## Conference Proceedings
+
+{% for paper in site.data.conference %}
+- **{{ paper.title }}**  
+  *{{ paper.authors }}*  
+  _{{ paper.conference }}_  
+  [View Paper]({{ paper.link }})
+{% endfor %}
