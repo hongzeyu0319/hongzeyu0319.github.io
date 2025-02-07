@@ -13,5 +13,4 @@ author_profile: true
 - **{{ paper.title }}**  
   *{{ paper.authors }}*  
   _{{ paper.conference }}_  
-  [View Paper]({{ paper.link }})
 {% endfor %}
