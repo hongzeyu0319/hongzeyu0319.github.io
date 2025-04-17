@@ -13,7 +13,7 @@ author_profile: true
 - **{{ paper.title }}**  
   *{{ paper.authors }}*  
   _{{ paper.venue }}_, {{ paper.year }}.  
-  [PDF]({{ paper.url }}){% if paper.arxiv_id %} • [arXiv:{{ paper.arxiv_id }}](https://arxiv.org/abs/{{ paper.arxiv_id }}){% endif %}
+  [arXiv:{{ paper.arxiv_id }}](https://arxiv.org/abs/{{ paper.arxiv_id }}){% endif %}
 {% endfor %}
 
 
