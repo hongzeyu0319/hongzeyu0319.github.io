@@ -7,6 +7,16 @@ author_profile: true
 
 {% include base_path %}
 
+## Preprints
+
+{% for paper in site.data.preprints %}
+- **{{ paper.title }}**  
+  *{{ paper.authors }}*  
+  _{{ paper.venue }}_, {{ paper.year }}.  
+  [PDF]({{ paper.url }}){% if paper.arxiv_id %} • [arXiv:{{ paper.arxiv_id }}](https://arxiv.org/abs/{{ paper.arxiv_id }}){% endif %}
+{% endfor %}
+
+
 ## Conference Proceedings
 
 {% for paper in site.data.conference %}
