@@ -12,8 +12,7 @@ author_profile: true
 {% for paper in site.data.preprints %}
 - **{{ paper.title }}**  
   *{{ paper.authors }}*  
-  _{{ paper.venue }}_, {{ paper.year }}.  
-  [arXiv:{{ paper.arxiv_id }}](https://arxiv.org/abs/{{ paper.arxiv_id }}){% endif %}
+  _{{ paper.venue }}_, {{ paper.year }}{% if paper.arxiv_id %}. [arXiv:{{ paper.arxiv_id }}](https://arxiv.org/abs/{{ paper.arxiv_id }}){% endif %}
 {% endfor %}
 
 
