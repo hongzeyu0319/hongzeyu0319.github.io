@@ -13,7 +13,7 @@ I'm a PhD Candidate in ECE department at the University of Michigan, advised by 
 ### News
 
 {% for item in site.data.news %}
-- **{{ item.date }}** – [{{ item.title }}]({{ item.url }})
+- **{{ item.date }}** – {% if item.url %}[{{ item.title }}]({{ item.url }}){% else %}{{ item.title }}{% endif %}
 {% endfor %}
 
 <!-- Ollie's image fixed at the bottom of the viewport -->
