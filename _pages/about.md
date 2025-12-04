@@ -15,7 +15,36 @@ I'm a PhD Candidate in ECE department at the University of Michigan, co-advised 
 - **{{ item.date }}** – {% if item.url %}[{{ item.title }}]({{ item.url }}){% else %}{{ item.title }}{% endif %}
 {% endfor %}
 
-<!-- Ollie's image fixed at the bottom of the viewport -->
-<div style="position: fixed; bottom: 0; left: 50%; transform: translateX(-50%); z-index: 100;">
+
+<!-- Ollie: fixed at bottom on desktop, inline at bottom on small screens -->
+<style>
+  /* Give the main content some breathing room so Ollie doesn't cover it */
+  .page__content {
+    padding-bottom: 220px; /* roughly Ollie’s height */
+  }
+
+  .ollie-wrapper {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 100;
+  }
+
+  /* On small screens: make Ollie normal, not fixed */
+  @media (max-width: 768px) {
+    .ollie-wrapper {
+      position: static;
+      transform: none;
+      text-align: center;
+      margin-top: 2rem;
+    }
+    .page__content {
+      padding-bottom: 0;
+    }
+  }
+</style>
+
+<div class="ollie-wrapper">
   <img src="/images/ollie.jpg" alt="Ollie!" style="width: 200px; height: auto;" />
 </div>
