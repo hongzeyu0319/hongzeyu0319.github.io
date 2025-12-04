@@ -1,13 +1,30 @@
-- date: 2025-05-12
-  title: "I will present in the “Riding the Frontier of MRI Reconstruction” session at 2025 ISMRM Annual Meeting in Hawaii"
+- date: 2025-11
+  title: "Two abstracts accepted for the ISMRM Workshop on Data Sampling & Image Reconstruction"
+
+- date: 2025-10
+  title: "Two abstracts submitted to the 2026 ISMRM Annual Meeting and the ISMRM Workshop on Data Sampling & Image Reconstruction"
+
+- date: 2025-07
+  title: "Oral presentation at the Magnetic Resonance in Madison Workshop"
+
+- date: 2025-05
+  title: "Oral presentation in the “Riding the Frontier of MRI Reconstruction” session at the 2025 ISMRM Annual Meeting (Summa Cum Laude Award)"
+
 - date: 2025-03
   title: "Attended the ISMRM Workshop on Body MRI"
+
 - date: 2025-02
-  title: "Preprint of our bilevel‑optimized INR method now available on arXiv"
+  title: "Preprint of our bilevel-optimized INR method for MRI reconstruction posted on arXiv"
   url: "https://arxiv.org/abs/2502.21292"
+
 - date: 2025-01
-  title: "Abstract “Bilevel Optimized Implicit Neural Representation for Scan‑Specific MRI Reconstruction” accepted for oral presentation at the 2025 ISMRM Annual Meeting"
+  title: "One abstract accepted as an oral presentation at the 2025 ISMRM Annual Meeting"
+
+- date: 2024-11
+  title: "Submitted one abstract to the 2025 ISMRM Annual Meeting"
+
 - date: 2024-05
   title: "Advanced to PhD candidacy"
+
 - date: 2023-08
-  title: "Started PhD studies in ECE at the University of Michigan, Ann Arbor"
+  title: "Started PhD studies in ECE at the University of Michigan, Ann Arbor"
