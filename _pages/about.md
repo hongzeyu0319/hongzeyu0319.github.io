@@ -20,8 +20,8 @@ I'm a PhD Candidate in ECE department at the University of Michigan, co-advised 
 <style>
   .ollie-wrapper {
     text-align: center;
-    margin-top: 2rem;   /* space above Ollie */
-    margin-bottom: 1rem;
+    margin-top: 4rem;   /* space above Ollie */
+    margin-bottom: 0.5rem;
   }
 </style>
 
