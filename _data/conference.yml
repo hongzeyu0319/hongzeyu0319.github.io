@@ -1,27 +1,11 @@
 - title: "Patch-Based Diffusion Inverse Solver for T2-Weighted Prostate Imaging Reconstruction"
   authors: "Hongze Yu, Jason Hu, Michael Jaroszewicz, Hero K. Hussain, Vikas Gulani, Jeffrey A. Fessler, Yun Jiang"
-  venues:
-    - name: "ISMRM Workshop on Data Sampling and Image Reconstruction, Sedona"
-      year: 2026
-      presentation: "Traditional Poster"
-    - name: "ISMRM Annual Meeting"
-      year: 2026
-      presentation: "Digital Poster"
+  conference: "ISMRM Workshop on Data Sampling and Image Reconstruction, Sedona, 2026 (Traditional Poster); 2026 ISMRM Annual Meeting (Digital Poster)"
 
 - title: "Joint Implicit Neural Representation for Fast Scan-Specific Magnetic Resonance Fingerprinting"
   authors: "Hongze Yu, Christopher Keen, Kaixuan Jin, Jeffrey A. Fessler, Yun Jiang"
-  venues:
-    - name: "ISMRM Workshop on Data Sampling and Image Reconstruction, Sedona"
-      year: 2026
-      presentation: "Traditional Poster"
-    - name: "ISMRM Annual Meeting"
-      year: 2026
-      presentation: "Oral Presentation"
+  conference: "ISMRM Workshop on Data Sampling and Image Reconstruction, Sedona, 2026 (Traditional Poster); 2026 ISMRM Annual Meeting (Oral Presentation)"
 
 - title: "Bilevel Optimized Implicit Neural Representation for Scan-Specific Accelerated MRI Reconstruction"
   authors: "Hongze Yu, Jeffrey A. Fessler, Yun Jiang"
-  venues:
-    - name: "ISMRM Annual Meeting, Hawaii"
-      year: 2025
-      presentation: "Oral Presentation"
-      award: "Summa Cum Laude Award"
+  conference: "33rd Annual Meeting of ISMRM, Hawaii, 2025 (Oral Presentation, Summa Cum Laude Award)"
