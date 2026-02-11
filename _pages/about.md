@@ -12,7 +12,12 @@ I'm a PhD Candidate in ECE department at the University of Michigan, co-advised 
 ### News
 
 {% for item in site.data.news %}
-- **{{ item.date }}** – {% if item.url %}[{{ item.title }}]({{ item.url }}){% else %}{{ item.title }}{% endif %}
+- **{{ item.date }}** – 
+{% if item.url %}
+  {{ item.title | replace: "arXiv", "<a href='" | append: item.url | append: "'>arXiv</a>" }}
+{% else %}
+  {{ item.title }}
+{% endif %}
 {% endfor %}
 
 
